@@ -35,7 +35,7 @@ body {
     background-position: right;
 }
 
-.btn-collective-arrow:hover{
+.btn-collective-arrow:hover {
     background-color: #3549CB;
     color: #FFFFFF;
 }
@@ -75,6 +75,7 @@ body {
 
 .video {
     position: relative;
+    overflow: hidden;
 }
 
 .video .content {
@@ -85,18 +86,29 @@ body {
 
 .left-hand {
     position: absolute;
+    left: -20px;
     width: 304px;
     height: 311px;
     background-image: url("../img/hand_left.png");
+    transition: left 1s;
 }
 
 .right-hand {
     position: absolute;
+    bottom: 0;
+    right: -20px;
     width: 312px;
     height: 203px;
     background-image: url("../img/hand_right.png");
+    transition: right 1s;
+}
+
+.video:hover > .left-hand {
+    left: 0;
+}
+
+.video:hover > .right-hand {
     right: 0;
-    bottom: 0;
 }
 
 .play-button {
@@ -117,7 +129,7 @@ body {
 }
 
 .play-button:hover {
-    background-color: rgba(53,73,203, 0.5);
+    background-color: rgba(53, 73, 203, 0.5);
     color: rgba(255, 255, 255, 0.75);
 }
 
@@ -194,23 +206,35 @@ body {
 
 footer .container {
     position: relative;
+    overflow: hidden;
 }
 
 footer .top-hand {
     position: absolute;
+    top: -10px;
     right: 100px;
     width: 200px;
     height: 133px;
     background-image: url("../img/hand_top.png");
+    transition: top 1s;
 }
 
 footer .down-hand {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 265px;
     width: 180px;
     height: 140px;
     background-image: url("../img/hand_down.png");
+    transition: bottom 1s;
+}
+
+.footer .container:hover > .top-hand {
+    top: 0;
+}
+
+.footer .container:hover > .down-hand {
+    bottom: 0;
 }
 
 footer .navbar-brand {
@@ -231,6 +255,6 @@ footer .navbar-brand {
     padding-top: 100px;
 }
 
-.footer .container .content .btn-collective:last-child{
+.footer .container .content .btn-collective:last-child {
     margin-left: 30px;
 }
