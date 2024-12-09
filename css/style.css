@@ -1,0 +1,236 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    footer .container {
+        max-width: 1240px;
+    }
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+body {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    font-family: Manrope, sans-serif !important;
+}
+
+.btn-collective {
+    height: 58px;
+    padding: 0 30px;
+    font-weight: 200;
+    border-radius: 0;
+}
+
+.btn-collective-arrow {
+    padding-right: 80px !important;
+    background-image: url("../img/arrow_up_light.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.btn-collective-arrow:hover{
+    background-color: #3549CB;
+    color: #FFFFFF;
+}
+
+.btn-collective-blue {
+    background-color: #3549CB;
+    border: none;
+}
+
+.dropdown-toggle::after {
+    margin-left: .510em;
+}
+
+.nav-item .flag-icon {
+    padding: 0 20px;
+}
+
+.slogan {
+    margin-top: 194px;
+    background-image: url("../img/slogan_logo.png");
+    background-repeat: no-repeat;
+    background-position: left 50px;
+}
+
+.slogan .btn-collective:last-child {
+    margin-left: 60px;
+}
+
+.slogan-text {
+    display: block;
+    font-size: 72px;
+    font-weight: 200;
+    width: 731px;
+    line-height: 1em;
+    margin-bottom: 40px;
+}
+
+.video {
+    position: relative;
+}
+
+.video .content {
+    padding: 0 190px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.left-hand {
+    position: absolute;
+    width: 304px;
+    height: 311px;
+    background-image: url("../img/hand_left.png");
+}
+
+.right-hand {
+    position: absolute;
+    width: 312px;
+    height: 203px;
+    background-image: url("../img/hand_right.png");
+    right: 0;
+    bottom: 0;
+}
+
+.play-button {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: rgba(53,73,203, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.partners-list {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.partners-buttons {
+    padding: 30px 0 100px 0;
+}
+
+.partners-buttons .btn-collective:last-child {
+    margin-left: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banners {
+    display: flex;
+}
+
+.banners-child {
+    width: 50%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banners-child span {
+    display: block;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 1.3em;
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+.banners-child--left {
+    background-image: url("../img/img_left.png");
+}
+
+.banners-child--left .content {
+    position: absolute;
+    left: 72px;
+    bottom: 72px;
+}
+
+.banners-child--right {
+    background-image: url("../img/img_right.png");
+}
+
+.banners-child--right .content {
+    position: absolute;
+    top: 70px;
+    left: 72px;
+}
+
+.banners-child--right button {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer .top-hand {
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    height: 133px;
+    background-image: url("../img/hand_top.png");
+}
+
+footer .down-hand {
+    position: absolute;
+    bottom: 0;
+    right: 265px;
+    width: 180px;
+    height: 140px;
+    background-image: url("../img/hand_down.png");
+}
+
+footer .navbar-brand {
+    color: #858A99;
+    font-size: 14px;
+}
+
+.footer-slogan {
+    font-weight: 200;
+    font-size: 43px;
+    display: block;
+    line-height: 1;
+}
+
+.footer .container .content {
+    width: 1240px;
+    height: 273px;
+    padding-top: 100px;
+}
+
+.footer .container .content .btn-collective:last-child{
+    margin-left: 30px;
+}
